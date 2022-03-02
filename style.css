@@ -1,0 +1,51 @@
+body{
+    background-color: aqua;
+    background-image: url("https://images.unsplash.com/photo-1641598471501-61a78df0edec?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+h1{
+    background-color: rgba(255, 0, 0, 0.219);
+    width: fit-content;
+    margin: 20px auto;
+    color: antiquewhite;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* sudoku */
+.sudoku{
+    background-color: rgba(255, 0, 0, 0.219);
+    width: 60%;
+    text-align: center;
+    margin: auto;
+    padding: 5px;
+}
+.subgrid{
+    width: 32%;
+    margin: 2px;
+    border: 2px dashed rgba(0, 0, 0, 0.356);
+    display: inline-block;
+    text-align: center;
+}
+.cell{
+    width: 29%;
+    /* height: 50%; */
+    margin: 2px;
+    padding: 0%;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+/* solve button */
+.solveBtn{
+    background-color: rgb(114, 9, 9);
+}
+.solveBtn:hover{
+    background-color: antiquewhite;
+    color: rgba(255, 0, 0, 0.219);
+    cursor: pointer;
+}
